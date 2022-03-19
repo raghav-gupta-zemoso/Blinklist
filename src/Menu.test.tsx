@@ -1,7 +1,8 @@
 import React from "react";
-import MenuTabs from "../molecules/menu/MenuTabs";
+
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
+import MenuTabs from "./components/molecules/menu/MenuTabs";
 
 describe("Menu", () => {
     test("renders Menu", () => {

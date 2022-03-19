@@ -1,7 +1,9 @@
 import React from "react";
-import Avatar from "../atoms/Avatar";
+
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
+import Avatar from "./components/atoms/Avatar";
+
 
 describe("Avatar Image", () => {
     test("renders AvatarImage", () => {

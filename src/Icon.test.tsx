@@ -1,7 +1,8 @@
 import React from "react";
-import Icons from "../atoms/icons/Icons";
+
 import "@testing-library/jest-dom/extend-expect";
 import { render, screen } from "@testing-library/react";
+import Icons from "./components/atoms/icons/Icons";
 
 describe("Icon", () => {
   test("renders icon", () => {
